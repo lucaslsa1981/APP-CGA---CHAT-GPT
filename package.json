@@ -1,0 +1,13 @@
+{
+  "name": "app-cga",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ambiente local de aperfeiçoamento do Portal CGA",
+  "scripts": {
+    "start": "node tools/server.cjs",
+    "check": "node tools/check.cjs",
+    "check:local": "node tools/check-local.cjs",
+    "package": "node tools/package.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
